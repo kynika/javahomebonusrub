@@ -6,7 +6,7 @@ public class Main {
 
         int bonus;
 
-        if (refill > 1000){  //расчет количества вонусов
+        if (refill > 1000){  //расчет количества бонусов
             bonus = refill / 100;
             System.out.println("Вам начисленно " + bonus + " бонусных рублей");
 
